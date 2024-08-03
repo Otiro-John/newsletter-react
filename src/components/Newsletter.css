@@ -1,0 +1,69 @@
+.container{
+    min-width: 700px;
+    min-height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 320px;
+    height: auto;
+    padding: 20px;
+}
+.left h1{
+    font-size: 40px;
+    margin-top: 100px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #021526;
+}
+.left p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+    margin-left: -50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+ul li span{
+    margin-left: 10px;
+}
+.right img{
+    width: 400px;
+}
+.inputs label{
+    font-size: 18px;
+    color: #021526;
+    font-weight: 600;
+}
+.inputs input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid #021526;
+    border-radius:5px;
+    outline: none;
+}
+.inputs button{
+    margin-top: 10px;
+    background-color: #021526;
+    color: #fff;
+    font-weight: 600;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.inputs button:hover{
+    background-color: #EB3678;
+    color: #fff;
+}
